@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Khan Steen And Wood Works</title>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="static/css/navbar.css">
+		<link rel="stylesheet" href="static/css/style.css">
+		<link rel="stylesheet" href="static/css/imageroller.css">
+		<link rel="stylesheet" href="static/css/footer.css">
+
+		<!-- this css is for gallary only -->
+		<link rel="stylesheet" href="static/css/gallery.css">
+		<!-- gallary css -->
+
+		<!-- css for modal -->
+		<link rel="stylesheet" href="static/css/modal.css">
+		<!-- modal css -->
+
+		<!-- css for imageSlider -->
+		<link rel="stylesheet" href="static/css/imageslider.css">
+		<!-- imageSlider css -->
+
+	</head>
+	<body>
+		<div class="modalWrpr">
+			<div class="modalBoxWrpr">
+				<div class="modalBox">
+					<div class="modalHeading">Sample text</div>
+					<div class="modalCloseBtn"></div>
+					<div class="modalContent">
+						<div class="imageSlider">
+							<img src="/static/images/world_trade_tower/side_support_truss.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="outerWrpr">
+			<div id="header">
+				<div class="navBarPlaceHolder"></div>
+				<script>
+					$(".navBarPlaceHolder").load("./navbar.html");
+				</script>
+			</div>
+			<div id="content">
+				<div class="gallary">
+					<div class="imagebox">
+						<div class="colorTint"></div>
+						<div class="hoverTitle">World Trade Tower</div>
+						<img src="./static/images/world_trade_tower/square/world_trade_tower.jpg" />
+					</div>
+					<div class="imagebox">
+					<div class="colorTint"></div>
+					<div class="hoverTitle">Residence</div>
+						<img src="./static/images/residence/square/residence.jpg" />
+					</div>
+				</div>
+			</div>
+
+
+			<div class="footerHolder"></div>
+			<script>
+				$(".footerHolder").load("./footer.html");
+			</script>
+
+		</div>
+
+	</body>
+</html>

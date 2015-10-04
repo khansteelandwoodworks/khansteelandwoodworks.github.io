@@ -1,0 +1,36 @@
+.modalWrpr{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.76);
+    z-index: 2;
+    margin: 0px;
+}
+.modalBoxWrpr{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.modalBox{
+    background-color: white;
+    margin: 0px auto;
+    max-width: 70%;
+    padding: 20px;
+    position: relative;
+}
+.modalContent{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.modalCloseBtn{
+	background: url("/static/images/other/close-btn.png");
+	background-repeat: no-repeat;
+	/* z-index: 100; */
+	height: 17px;
+	width: 17px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}

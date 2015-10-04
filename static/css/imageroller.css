@@ -1,0 +1,25 @@
+.imageDisplay{
+	max-height: 365px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+#imageText{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+
+}
+.imagePagination{
+	display: inline-block;
+}
+.imageTd{
+	width: 80%;
+    display: inline-block;
+	background-color: rgba(0, 0, 0, 0.53);
+	color: yellow;
+}
+#imageDescription{
+	font-family: 'Open Sans Condensed', sans-serif;
+}

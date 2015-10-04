@@ -1,0 +1,32 @@
+.navBar{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	left: 60px;
+	position: absolute;
+    bottom: 0px;
+}
+.navBar li{
+	display: inline;
+	margin: 0px 50px 0px 50px;
+	    text-transform: uppercase;
+	    cursor: pointer;
+	    font-family: 'Oswald', sans-serif;
+}
+.navBarWrpr{
+	height: 100px;
+    width: 100%;
+        position: relative;
+}
+
+.imagePagination li{
+	list-style-type: none;
+	display: inline;
+}
+*{
+	font-family: 'Oswald', sans-serif;
+}
+.navBar li a, .navBar li a:link, .navBar li a:visited, .navBar li a:active, .navBar li a:hover{
+	text-transform: none;
+	color:black;
+}
