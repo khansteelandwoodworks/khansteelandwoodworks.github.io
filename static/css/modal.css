@@ -16,11 +16,12 @@
     background-color: white;
     margin: 0px auto;
     max-width: 70%;
-    padding: 20px;
+    /*padding: 20px;*/
     position: relative;
 }
 .modalContent{
 	font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px;
 }
 
 .modalCloseBtn{
@@ -33,4 +34,9 @@
 	right: 20px;
 	top: 20px;
 	cursor: pointer;
+}
+.modalHead{
+     padding: 20px;
+    border-bottom: 1px solid;
+
 }

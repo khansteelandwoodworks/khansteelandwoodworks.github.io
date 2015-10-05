@@ -2,13 +2,14 @@
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	left: 60px;
 	position: absolute;
     bottom: 0px;
+    width: 100%;
 }
 .navBar li{
 	display: inline;
-	margin: 0px 50px 0px 50px;
+	/*margin: 0px 50px 0px 50px;*/
+	    margin: 0px 62px 0px 62px;
 	    text-transform: uppercase;
 	    cursor: pointer;
 	    font-family: 'Oswald', sans-serif;
@@ -27,6 +28,6 @@
 	font-family: 'Oswald', sans-serif;
 }
 .navBar li a, .navBar li a:link, .navBar li a:visited, .navBar li a:active, .navBar li a:hover{
-	text-transform: none;
+	text-decoration: none;
 	color:black;
 }
