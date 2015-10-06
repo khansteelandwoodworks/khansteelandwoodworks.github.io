@@ -21,7 +21,9 @@
 			<div id="content">
 				<div class="imageRollerWrpr">
 					<div class="imageDisplay">
-						<div id="image"><img src="/static/images/samples.png"></div>
+						<div id="image">
+							<img class="displayImg" src="/static/images/samples.png">
+						</div>
 						<div id="imageText">
 							<div class="imageTd">
 								<div id="imageTitle">Sample Image title</div>
@@ -29,10 +31,29 @@
 							</div>
 							<div class="imagePagination">
 								<ul>
-									<li>1</li>
-									<li>2</li>
-									<li>3</li>
+									<li imageid="firstImage">1</li>
+									<li imageid="secondImage">2</li>
+									<li imageid="thirdImage">3</li>
+									<li imageid="fourthImage">4</li>
 								</ul>
+							</div>
+						</div>
+						<div class="imageRollerMeta" style="display:none;">
+							<div class="imageMeta" id="firstImage">
+								<img src="/static/images/samples.png" />
+								<div class="imageDescription" mainTitle="Sample main title" subtitle="This is sub title for this image"></div>
+							</div>
+							<div class="imageMeta" id="secondImage">
+								<img src="/static/images/side_handrail.png"  />
+								<div class="imageDescription" mainTitle="Sample main title2" subtitle="This is sub title for this image2"></div>
+							</div>
+							<div class="imageMeta" id="thirdImage">
+								<img src="/static/images/side_support_truss.png"  />
+								<div class="imageDescription" mainTitle="Sample main title3" subtitle="This is sub title for this image3"></div>
+							</div>
+							<div class="imageMeta" id="fourthImage">
+								<img src="/static/images/world_trade_tower.jpg"  />
+								<div class="imageDescription" mainTitle="Sample main title4" subtitle="This is sub title for this image4"></div>
 							</div>
 						</div>
 					</div>
@@ -44,5 +65,6 @@
 				$(".footerHolder").load("./footer.html");
 			</script>
 		</div>
+		<script type="text/javascript" src="/static/js/imageroller.js"></script>
 	</body>
 </html>
