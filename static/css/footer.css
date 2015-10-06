@@ -2,3 +2,15 @@
     position: absolute;
     bottom: 0px;
 }
+
+.footerWrpr{
+	    width: 100%;
+    text-align: center;
+}
+.footerHolder{
+	width: 100%;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -9,10 +9,12 @@
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
+	background-color: rgba(123, 123, 123, 0.7);
 
 }
 .imagePagination{
 	display: inline-block;
+    margin-left: 16px;
 }
 .imageTd{
 	width: 80%;
@@ -25,4 +27,25 @@
 }
 .displayImg{
 	width: 100%;
+}
+.imagePagination{
+    position: relative;
+    top: -10px;
+}
+.imagePagination li{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left:5px;
+    margin-right: 5px;
+    color:yellow;
+	/*transition: font-size 0.2s;*/
+}
+.imagePagination li:hover{
+	font-size: 18px;
+	/*transition: font-size 0.2s;*/
+}
+.imageTitle{
+	    text-transform: uppercase;
+    font-size: 15px;
 }

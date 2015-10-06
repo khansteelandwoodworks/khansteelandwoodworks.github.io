@@ -4,7 +4,9 @@ $(document).ready(function(){
 		var imagedisplay_dom = $(this).parents(".imageDisplay")
 		var image_src = $("#"+imageid).find("img").attr("src");
 		var image_mjr_dsc = $("#"+imageid).find(".imageDescription");
-		$(imagedisplay_dom).find(".displayImg").attr("src",image_src);
+		$(imagedisplay_dom).find(".displayImg").fadeOut("medium", 
+			function(){$(imagedisplay_dom).find(".displayImg").attr("src",image_src);});
+		$(imagedisplay_dom).find(".displayImg").fadeIn("medium");
 		$(imagedisplay_dom).find("#imageTitle").text(image_mjr_dsc.attr("mainTitle"));
 		$(imagedisplay_dom).find("#imageDescription").text(image_mjr_dsc.attr("subtitle"));
 	});

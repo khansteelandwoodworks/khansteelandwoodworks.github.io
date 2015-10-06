@@ -15,7 +15,7 @@
 	    font-family: 'Oswald', sans-serif;
 }
 .navBarWrpr{
-	height: 100px;
+	height: 70px;
     width: 100%;
         position: relative;
 }
@@ -29,5 +29,19 @@
 }
 .navBar li a, .navBar li a:link, .navBar li a:visited, .navBar li a:active, .navBar li a:hover{
 	text-decoration: none;
-	color:black;
+    color: #5A4E32;
+}
+.logos{
+	    position: relative;
+}
+#logoimage{
+	height: 60px;
+    top: 25px;
+    position: relative;
+}
+#logotext{
+	    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
 }
