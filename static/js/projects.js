@@ -17,7 +17,7 @@ $(document).ready(function(){
 		var id_of_images = $(this).parents(".modalBox").attr("imageId");
 		var image_number = $(this).parents(".modalBox").attr("imageNo");
 		var total_images = $("#"+ id_of_images+" img").length;
-		var image_number = image_number - 1;
+		var image_number = Number(image_number) - 1;
 		if(image_number<0){
 			image_number = total_images-1;
 		}
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		var id_of_images = $(this).parents(".modalBox").attr("imageId");
 		var image_number = $(this).parents(".modalBox").attr("imageNo");
 		var total_images = $("#"+ id_of_images+" img").length;
-		var image_number = image_number + 1;
+		var image_number = Number(image_number) + 1;
 		if(image_number>total_images){
 			image_number = 0;
 		}

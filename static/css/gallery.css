@@ -2,9 +2,10 @@
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
+    margin: 10px;
 }
 .imagebox img{
-	height: 250px;
+	height: 210px;
 }
 .hoverTitle{
 	position: absolute;
