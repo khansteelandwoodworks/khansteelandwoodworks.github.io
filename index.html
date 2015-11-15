@@ -15,19 +15,35 @@
 			<div id="header">
 				<div class="navBarPlaceHolder"></div>
 				<script>
-				$(".navBarPlaceHolder").load("./navbar.html");
+				// $(".navBarPlaceHolder").load("./navbar.html");
 				</script>
+				<div class="headerWrpr">
+					<div class="logos">
+						<a href="/"><img id="logoimage" src="/static/images/logoimage.png"></a>
+						<a href="/"><img id="logotext" src="/static/images/logo_text.png"></a>
+						</div>
+					<div class="navBarWrpr">
+						<ul class="navBar">
+							<li><a href="./projects.html">Projects</a></li>
+							<li><a href="./services.html">Services</a></li>
+							<li><a href="./aboutus.html">About Us</a></li>
+							<!-- <li><a href="./partners.html">Partners</a></li> -->
+							<li><a href="./contactus.html">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
 			<div id="content">
 				<div class="imageRollerWrpr">
 					<div class="imageDisplay">
 						<div id="image">
-							<img class="displayImg" src="/static/images/samples.png">
+							<img class="displayImg" src="/static/images/side_handrail.png">
 						</div>
 						<div id="imageText">
 							<div class="imageTd">
-								<div id="imageTitle">The world trade tower</div>
-								<div id="imageDescription">The majestic towers developed in the suburbs of New Delhi</div>
+								<div id="imageTitle">Steel works</div>
+								<div id="imageDescription">Range of steel works end to end in construction</div>
 							</div>
 							<div class="imagePagination">
 								<ul>
@@ -41,19 +57,19 @@
 						<div class="imageRollerMeta" style="display:none;">
 							<div class="imageMeta" id="firstImage">
 								<img src="/static/images/side_handrail.png"  />
-								<div class="imageDescription" mainTitle="The world trade tower" subtitle="The majestic towers developed in the suburbs of New Delhi"></div>
+								<div class="imageDescription" mainTitle="Steel works" subtitle="Range of steel works end to end in construction"></div>
 							</div>
 							<div class="imageMeta" id="secondImage">
 								<img src="/static/images/samples.png" />
-								<div class="imageDescription" mainTitle="Sample main title2" subtitle="This is sub title for this image2"></div>
+								<div class="imageDescription" mainTitle="The World Trade Tower" subtitle="Majestic towers in New Delhi"></div>
 							</div>
 							<div class="imageMeta" id="thirdImage">
 								<img src="/static/images/side_support_truss.png"  />
-								<div class="imageDescription" mainTitle="Sample main title3" subtitle="This is sub title for this image3"></div>
+								<div class="imageDescription" mainTitle="Steel works" subtitle="Range of steel works end to end in construction"></div>
 							</div>
 							<div class="imageMeta" id="fourthImage">
 								<img src="/static/images/world_trade_tower.jpg"  />
-								<div class="imageDescription" mainTitle="Sample main title4" subtitle="This is sub title for this image4"></div>
+								<div class="imageDescription" mainTitle="Footovers" subtitle="Foot overs in New Delhi"></div>
 							</div>
 						</div>
 					</div>
@@ -62,8 +78,13 @@
 
 			<div class="footerHolder"></div>
 			<script>
-				$(".footerHolder").load("./footer.html");
+				// $(".footerHolder").load("./footer.html");
 			</script>
+			<div class="footerWrpr">
+				<div class="footer">
+					<!-- Developed by Grey Area Technologies -->
+				</div>
+			</div>
 		</div>
 		<script type="text/javascript" src="/static/js/imageroller.js"></script>
 	</body>
